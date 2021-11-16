@@ -2,16 +2,32 @@ body {
   font-family: 'Kaisei Opti', serif;
 }
 
-nav {
-  background-color: (#263238 blue-grey darken-4);
+.greydark {
+  background-color: #424242;
+}
+
+.gradient1 {
+  background-image: url("../img/section1.jpg");
+}
+
+.gradient2 {
+  background-image: url("../img/section2.jpg");
+}
+
+.gradient3 {
+  background-image: url("../img/section3.jpg");
 }
 
 .bg-gradient {
-  background-image: url("../img/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: whitesmoke;
+}
+
+.binome1 {
+    width: 40%;
+    float: left;
 }
 
 .binome2 {
@@ -19,7 +35,14 @@ nav {
   float: right;
 }
 
-.binome1 {
-    width: 40%;
-    float: left;
+.top {
+  position: top;
+}
+
+.bottom {
+  position: bottom;
+}
+
+.ffxv {
+  background-image: url("img/ffxv.jpg");
 }
