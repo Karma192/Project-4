@@ -1,0 +1,6 @@
+violet = #7b1fa2 purple darken-2
+bleu = #283593 indigo darken-3
+rose = #c2185b pink darken-2
+orange = #ff6e40 deep-orange accent-2
+rose saumon = #ff5252 red accent-2
+black background
