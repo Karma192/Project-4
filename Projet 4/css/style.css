@@ -50,54 +50,7 @@ body {
 .ffxv {
   background-image: url("img/ffxv.jpg");
 }
-
-/* The Modal */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: #283593;
-  opacity: 0.85;
-}
-
-/* Modal Content */
-.modal-content {
-  background-color: black;
-  color: white;
-  margin: auto;
-  padding: 20px;
-  border: 0;
-  border-radius: 15px;
-  width: 40%;
-}
-
-.form {
-  width: 250px;
-  height: 25px;
-}
-
-.message {
-  width: 350px;
-  height: 175px;
-}
-
-/* The Close Button */
-.close {
-  color: grey;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
+ #contact {
+   background-color: #37474f;
+   color: whitesmoke;
+ }
