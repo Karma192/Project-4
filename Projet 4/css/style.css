@@ -50,11 +50,8 @@ body {
 .ffxv {
   background-image: url("img/ffxv.jpg");
 }
+
  #contact {
    background-color: #37474f;
    color: whitesmoke;
- }
-
- footer {
-   background-color: black;
  }
