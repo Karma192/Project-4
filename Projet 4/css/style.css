@@ -1,31 +1,5 @@
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #999C99;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-border-radius: 10px;
-  background: #555;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #434343;
-}
-
 body {
   font-family: 'Kaisei Opti', serif;
-}
-
-nav img {
-  height: 60px;
 }
 
 .greydark {
@@ -79,4 +53,8 @@ nav img {
  #contact {
    background-color: #37474f;
    color: whitesmoke;
+ }
+
+ footer {
+   back
  }
