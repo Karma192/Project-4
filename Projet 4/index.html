@@ -40,7 +40,7 @@
         <div class="parallax"><img src="img/pa2.jpg"></div>
       </div>
 
-      <div class="section bg-gradient gradient1">
+      <div class="section bg-gradient gradient3">
         <div class="row container">
           <div class="col s12 m10 offset-m1">
             <div class="center-align">
@@ -118,7 +118,28 @@
               <div class="col l6 s12">
                 <h5 class="white-text">Footer Content</h5>
                 <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-                <a class="waves-effect waves-light btn">Contact Us</a>
+                <div class="center-align">
+                  <a class="waves-effect waves-light btn" id="Button"><i class="material-icons left">cloud</i>button</a>
+                </div>
+                <!-- The Modal -->
+                <div id="Modal" class="modal">
+                  <div class="modal-content center">
+                    <span class="close">&times;</span>
+                    <h2>Contact Us</h2>
+                    <form>
+                      <label for="fname">First name</label><br>
+                      <input type="text" id="fname" name="fname" placeholder="Cloud"><br>
+                      <label for="lname">Last name</label><br>
+                      <input type="text" id="lname" name="lname" placeholder="Strife"><br>
+                      <label for="mail">E-mail</label><br>
+                      <input type="email" id="mail" name="mail" placeholder="cloud.strife@sephiroth.com" class="form"><br>
+                      <label for="msg">Message</label><br>
+                      <textarea name="msg" id="msg" rows="30" cols="80" class="message" placeholder="Enter your message..."></textarea> <br>
+                      <input type="submit" value="Submit">
+                      <input type="reset" value="Reset">
+                    </form>
+                  </div>
+                </div>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
