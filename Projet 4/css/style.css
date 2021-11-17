@@ -24,8 +24,30 @@ body {
   font-family: 'Kaisei Opti', serif;
 }
 
+img {
+  margin: 10px;
+}
+
+nav {
+  z-index: 1;
+  position: sticky;
+  top: 0;
+}
 nav img {
-  height: 60px;
+  margin: 0;
+}
+
+h2 {
+  padding: 15px;
+  margin: 0px;
+}
+
+#idea .row{
+  margin-bottom: 0;
+}
+
+#final .row{
+  margin-bottom: 0;
 }
 
 .greydark {
