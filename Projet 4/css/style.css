@@ -21,37 +21,56 @@ border-radius: 10px;
 }
 
 body {
-  font-family: 'Kaisei Opti', serif;
-}
-
-img {
-  margin: 10px;
+  font-family: 'Kaisei Opti', sans-serif;
 }
 
 nav {
-  z-index: 1;
+  background-color: rgb(24, 19, 37);
+  background-image: radial-gradient(farthest-side at 0 0,rgba(255,26,198,.3),rgba(255,26,198,0));
+  height: 70px;
+  z-index: 2;
   position: sticky;
   top: 0;
 }
-nav img {
-  margin: 0;
+
+nav ul li {
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 h2 {
+  color: #fff;
   padding: 15px;
   margin: 0px;
+  text-shadow: 2px 2px 2px #000;
 }
 
-#idea .row{
+#team .parallax-container, #real .parallax-container {
+  min-height: 625px;
+}
+
+#idea .row, #final .row{
+  color: #fff;
   margin-bottom: 0;
 }
 
-#final .row{
-  margin-bottom: 0;
+#idea, #final {
+  background-color: #1c4477;
+  background-image: radial-gradient(farthest-side at 10px 0,#235699,#0f2542);
 }
 
-.greydark {
+#last .parallax-container, #last .parallax{
+  height: 50px;
+}
+
+#real .row .col, #team .card-reveal {
+  background-color: rgba(255,255,255,0.7);
+  background-image: radial-gradient(farthest-side at 10px 0,rgba(235, 235, 235, 0.3),#c4c4c4);
+}
+
+.card-content {
   background-color: #424242;
+  background-image: radial-gradient(farthest-side at 10px 0,rgba(12, 14, 134, 0.3),#424242);
 }
 
 .gradient1 {
@@ -75,16 +94,6 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   color: whitesmoke;
-}
-
-.binome1 {
-    width: 40%;
-    float: left;
-}
-
-.binome2 {
-  width: 40%;
-  float: right;
 }
 
 .top {
