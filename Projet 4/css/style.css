@@ -28,7 +28,7 @@ nav {
   background-color: rgb(24, 19, 37);
   background-image: radial-gradient(farthest-side at 0 0,rgba(255,26,198,.3),rgba(255,26,198,0));
   height: 70px;
-  z-index: 2;
+  z-index: 4;
   position: sticky;
   top: 0;
 }
