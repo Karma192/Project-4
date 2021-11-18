@@ -89,6 +89,10 @@ h2 {
   background-image: url("../img/section4.jpg");
 }
 
+.gradient5 {
+  background-image: url("../img/section5.jpg");
+}
+
 .bg-gradient {
   background-position: center;
   background-repeat: no-repeat;
@@ -103,9 +107,11 @@ h2 {
 .bottom {
   position: bottom;
 }
-
+ /*Caroussel*/
 .ffxv {
-  background-image: url("img/ffxv.jpg");
+  background-image: url("../img/ffxv.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
  #contact {
