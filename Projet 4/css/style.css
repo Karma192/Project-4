@@ -20,6 +20,10 @@ border-radius: 10px;
   background: #434343;
 }
 
+body {
+  font-family: 'Lucida Sans', sans-serif;
+}
+
 p {
   font-size: 20px;
 }
@@ -45,6 +49,15 @@ h2 {
   text-shadow: 2px 2px 2px #000;
 }
 
+#final p a {
+  color: rgb(199, 199, 199);
+}
+
+#final p a:hover {
+  color:rgb(78, 116, 148);
+  transition: 0.3s all;
+}
+
 #team .parallax-container, #real .parallax-container {
   min-height: 625px;
 }
@@ -54,14 +67,36 @@ h2 {
   margin-bottom: 0;
 }
 
+#idea, #final {
+  background-color: #1c4477;
+  background-image: radial-gradient(farthest-side at 10px 0,#235699,#0f2542);
+}
+
 #last .parallax-container, #last .parallax{
   height: 50px;
 }
 
-#real .row .col, #team .card-reveal {
+#real .row .col, #team .card-reveal, #team .extra {
   background-color: rgba(255,255,255,0.7);
   background-image: radial-gradient(farthest-side at 10px 0,rgba(235, 235, 235, 0.3),#c4c4c4);
   border-radius: 15px;
+}
+
+.extra {
+  width: 50%;
+  padding: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+#real .row .col {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.card {
+  border-radius: 20px;
 }
 
 .card-content {
@@ -82,7 +117,7 @@ h2 {
 
 .page-footer {
   background-color: #424242;
-  background-image: radial-gradient(farthest-side at 10px 0,rgba(12, 14, 134, 0.3),#424242);
+  background-image: radial-gradient(farthest-side at 10px 0,rgba(12, 14, 134, 0.3),#16000d);
 }
 
 
@@ -102,6 +137,14 @@ h2 {
 
 .intranet {
   background-image: url("../img/intranet.jpg");
+}
+
+.intranet1 {
+  background-image: url("../img/intranet1.jpg");
+}
+
+.intranet2 {
+  background-image: url("../img/intranet2.jpg");
 }
 
  #contact {
