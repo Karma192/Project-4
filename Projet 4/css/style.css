@@ -70,6 +70,7 @@ h2 {
 #real .row .col, #team .card-reveal {
   background-color: rgba(255,255,255,0.7);
   background-image: radial-gradient(farthest-side at 10px 0,rgba(235, 235, 235, 0.3),#c4c4c4);
+  border-radius: 15px;
 }
 
 .card-content {
@@ -78,22 +79,6 @@ h2 {
 }
 
 .gradient1 {
-  background-image: url("../img/section1.jpg");
-}
-
-.gradient2 {
-  background-image: url("../img/section2.jpg");
-}
-
-.gradient3 {
-  background-image: url("../img/section3.jpg");
-}
-
-.gradient4 {
-  background-image: url("../img/section4.jpg");
-}
-
-.gradient5 {
   background-image: url("../img/section5.jpg");
 }
 
