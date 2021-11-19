@@ -100,13 +100,12 @@ h2 {
   color: whitesmoke;
 }
 
-.top {
-  position: top;
+.page-footer {
+  background-color: #424242;
+  background-image: radial-gradient(farthest-side at 10px 0,rgba(12, 14, 134, 0.3),#424242);
 }
 
-.bottom {
-  position: bottom;
-}
+
  /*Caroussel*/
 .ffxv {
   background-image: url("../img/ffxv.jpg");
