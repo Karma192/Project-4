@@ -20,10 +20,6 @@ border-radius: 10px;
   background: #434343;
 }
 
-body {
-  font-family: 'Kaisei Opti', sans-serif;
-}
-
 p {
   font-size: 20px;
 }
@@ -56,11 +52,6 @@ h2 {
 #idea .row, #final .row{
   color: #fff;
   margin-bottom: 0;
-}
-
-#idea {
-  background-color: #1c4477;
-  background-image: radial-gradient(farthest-side at 10px 0,#235699,#0f2542);
 }
 
 #last .parallax-container, #last .parallax{
@@ -117,3 +108,18 @@ h2 {
    background-color: #37474f;
    color: whitesmoke;
  }
+
+.change {
+   cursor: pointer;
+   border: 0;
+   text-align: center;
+}
+
+/*For Easter egg*/
+.fffont {
+  font-family: 'Kaisei Opti', sans-serif;
+}
+
+.colorff {
+  background-color: #546e7a;
+}
