@@ -24,6 +24,10 @@ body {
   font-family: 'Kaisei Opti', sans-serif;
 }
 
+p {
+  font-size: 20px;
+}
+
 nav {
   background-color: rgb(24, 19, 37);
   background-image: radial-gradient(farthest-side at 0 0,rgba(255,26,198,.3),rgba(255,26,198,0));
@@ -107,10 +111,21 @@ h2 {
 
 
  /*Caroussel*/
-.ffxv {
-  background-image: url("../img/ffxv.jpg");
+.carousel-bg {
   background-size: cover;
   background-position: center;
+}
+
+.ffxv {
+  background-image: url("../img/ffxv.jpg");
+}
+
+.danmachi {
+  background-image: url("../img/Danmachi.jpg");
+}
+
+.intranet {
+  background-image: url("../img/intranet.jpg");
 }
 
  #contact {
