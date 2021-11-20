@@ -1,31 +1,26 @@
-/* width */
+/*Custom Scrollbar*/
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
-
-/* Track */
 ::-webkit-scrollbar-track {
   background: #999C99;
 }
-
-/* Handle */
 ::-webkit-scrollbar-thumb {
 border-radius: 10px;
   background: #555;
 }
-
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #434343;
 }
 
+/*HTML markers*/
 body {
   font-family: 'Lucida Sans', sans-serif;
 }
 
 p {
-  font-size: 1vw;
+  font-size: 2vh;
 }
 
 nav {
@@ -44,7 +39,7 @@ nav ul li {
 
 h1 {
   color: #fff;
-  font-size: 100px;
+  font-size: 9vh;
   background-color: rgba(24, 19, 37,0.6);
   text-shadow: 2px 2px 2px #000;
 }
@@ -56,31 +51,14 @@ h2 {
   text-shadow: 2px 2px 2px #000;
 }
 
-#final p a {
-  color: rgb(199, 199, 199);
-}
-
-.background-radient {
-  background-color: #1c4477;
-  background-image: radial-gradient(farthest-side at 10px 0,#235699,#0f2542);
-}
-
-#final p a:hover {
-  color:rgb(78, 116, 148);
-  transition: 0.3s all;
-}
-
-#team .parallax-container, #real .parallax-container {
-  min-height: 625px;
-}
-
+/*ID markers*/
 #idea .row, #final .row{
   color: #fff;
   margin-bottom: 0;
 }
 
-#last .parallax-container, #last .parallax{
-  height: 50px;
+#team .parallax-container, #real .parallax-container {
+  min-height: 625px;
 }
 
 #real .row .col, #team .card-reveal, #team .extra {
@@ -89,19 +67,29 @@ h2 {
   border-radius: 15px;
 }
 
-.extra {
-  width: 50%;
-  padding: 1px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 15px;
-}
-
 #real .row .col {
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
+#final p a {
+  color: rgb(199, 199, 199);
+}
+
+#final .carousel {
+  margin: 15px;
+}
+
+#final p a:hover {
+  color:rgb(78, 116, 148);
+  transition: 0.3s all;
+}
+
+#last .parallax-container, #last .parallax{
+  height: 50px;
+}
+
+/*Classes markers*/
 .card {
   border-radius: 20px;
 }
@@ -109,6 +97,14 @@ h2 {
 .card-content {
   background-color: #424242;
   background-image: radial-gradient(farthest-side at 10px 0,rgba(12, 14, 134, 0.3),#424242);
+}
+
+.extra {
+  width: 70%;
+  padding: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
 }
 
 .gradient1 {
@@ -152,7 +148,8 @@ h2 {
   background-image: url("../img/start.jpg");
 }
 
- #contact {
+/*Footer*/
+#contact {
    background-color: #37474f;
    color: whitesmoke;
  }

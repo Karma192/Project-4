@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
-	<title>Portfolio : L'Intranet</title>
+	  <title>Portfolio : L'Intranet</title>
+    <meta charset="utf-8">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
@@ -12,7 +13,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@500&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="img/icon.ico">
-
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
@@ -41,7 +41,7 @@
 
 	  <div id="team" class="center-align">
       <div class="parallax-container">
-        <div class="parallax"><img src="img/smp2.jpg"></div>
+        <div class="parallax"><img id="parallax1" src="img/pa2.jpg" alt="Parallax n1"></div>
           <div class="center-align">
             <h1>Portfolio : Intranet</h1>
           </div>
@@ -50,7 +50,7 @@
           <div class="col s10 offset-s1 m8 offset-m2 l3 offset-l2">
             <div class="card hoverable">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator responsive-img" src="img/hugo.jpg">
+                <img class="activator" src="img/hugo.jpg">
               </div>
 
               <div class="card-content">
@@ -73,7 +73,7 @@
 
               <div class="card-content">
                 <span class="card-title activator grey-text">Thibault Le Tallec</span>
-                <p><a href="#!" target="_blank" rel="nofollow"><i class="fa-brands fa-linkedin fa-3x"></i></a></p>
+                <p><a href="https://www.linkedin.com/in/thibault-le-tallec-0a8198222/" target="_blank" rel="nofollow"><i class="fa-brands fa-linkedin fa-3x"></i></a></p>
               </div>
 
               <div class="card-reveal">
@@ -92,87 +92,79 @@
 
         <div class="center-align extra">
           <p>
-            Il faut également préciser que nous avons été énormément aidé par notre professeur d'informatique : Renaud Coutray de Pradel, sans qui rien n'aurait été possible.
-            Donc grosse mention d'honneur.
+            It should also be pointed out that we were greatly helped by our professor of computer science: Renaud Coutray de Pradel, without whom nothing would have been possible. 
+            So big honors to him.
           </p>
         </div>
       </div>
     </div>
 
-    <div id="idea" class="center-align background-radient">
+    <div id="idea" class="center-align bg-gradient gradient1">
     	<h2>Presentation</h2>
     	  <div class="row center-align">
-			    <div class="col s10 offset-s1 m6 offset-m1 l5 offset-l1">
+			    <div class="col s10 offset-s1 m10 offset-m1 l5 offset-l1">
 				    <p>
-              L'idée initiale du projet était de faire une refonte de la page intranet de notre lycée, qui était assez vieille. 
-              Une fois que l'idée fut lancée, un des surveillant de l'école, nous exposa une de ses idées, qui était de créer une interface que tous les élèves pourraient consulter afin de connaître les horaires de passage de la cantine (qui était et est toujours une organisation chaotique).<br><br>
-              C'est donc de cette idée de créer un site internet utilitaire pour notre école que nous sommes partis sans aucune expérience dans le développement web ...
+              The initial idea of the project was to redesign the intranet page of our school, which was quite old. 
+              Once the idea was launched, one of the school’s supervisors told us one of his ideas, which was to create an interface that all students could consult in order to know the times of passage of the canteen (which was and is always a chaotic organization).<br><br>
+              So it was from this idea to create a utilitarian website for our school that we left without any experience in web development ...
             <p>
 			    </div>
 
-			    <div class="col s8 offset-s2 m4 l4 offset-l1">
-				    <img class="responsive-img" src="img/logosmp.png">
+			    <div class="col s8 offset-s2 m8 offset-m2 l4 offset-l1">
+				    <img class="responsive-img" src="img/logosmp.png" alt="smp's logo">
 			    </div>
 		    </div>
     </div>
 
     <div id="real" class="center-align">
 	    <div class="parallax-container">
-        <div class="parallax"><img src="img/minimal.jpg"></div>
-    	  <h2>Realisation</h2>
-    	  <div class="row center-align">
-    		  <div class="col s10 offset-s1 m2 offset-m1 l3 offset-l1">
-            <p>
-              Tout d'abord, il fallait prendre conscience que ce projet nécessiterait des compétences que nous ne possédions pas encore. 
-              Nous sommes donc reparti du CSS de HTML5 qui était celui déjà utilisé par l'école auparavant ; ce dernier faisant plus de 5000 lignes, le temps de comprendre comment le tout fonctionnait fut assez long ...<br>
-              Ensuite, nous avons décidé d'utiliser l'architecture MVC pour organiser le mieux possible le site.
-            </p>    		
-          </div>
+        <div class="parallax"><img id="parallax2" src="img/pa1.jpg" alt="Parallax n2"></div>
+    	    <h2>Realisation</h2>
+    	    <div class="row center-align">
+    		    <div class="col s10 offset-s1 m10 offset-m1 l3 offset-l1">
+              <p>
+                First, we had to realize that this project would require skills that we did not yet possess. 
+                So we started from the CSS of HTML5 which was the one already used by the school before ; maked of more than 5000 lines, the time to understand how everything worked was quite long ...<br>
+                Then we decided to use the MVC architecture to organize the site as well as possible.
+              </p>    		
+            </div>
 
-    		  <div class="col s10 offset-s1 m3 offset-m1 l2 offset-l1">
-            <p>
-              Ensuite, la partie la plus dure était celle du PHP, de MySQL, et de la gestion de la base de données, qui devait comporter la totalité des classes, avec leurs heures de passages, en fonction des jours et de la semaine ... 
-              Un vrai casse-tête ... <br>
-              Sans rentrer dans les détails, la table de données ne se composait que de nombres qui faisaient références à des données d'autres tableaux.  
-            </p>    		
-          </div>
+    		    <div class="col s10 offset-s1 m10 offset-m1 l2 offset-l1">
+              <p>
+                Then, the hardest part was that of PHP, MySQL, and database management, which had to include all classes, with their times of passage, depending on the days and the week ... 
+                A real puzzle ...<br>
+                Without going into detail, the data table consisted only of numbers that referred to data from other tables.  
+              </p>    		
+            </div>
 
-    		  <div class="col s10 offset-s1 m2 offset-m1 l3 offset-l1">
-            <p>
-              Pour le design de la page, on est parti sur des bars de recherches simples, comme il y en avait avant car il s'agit de la page qui s'affiche dès qu'un onglet est ouvert sur un des ordinateurs du lycée. 
-              De plus, il fallait introduire une liste de liens utiles pour les élèves et les professeurs. 
-              Pour cela, on a utilisé des blocs de couleurs semi-transparents, contenant les liens de ce qu'ils indiquaient. 
-              On a rajouté à cela des images de fonds avec des logos pour chaque blocs.
-            </p>    		
-          </div>
-    	  </div>
+    		    <div class="col s10 offset-s1 m10 offset-m1 l3 offset-l1">
+              <p>
+                For the design of the page, we went to simple search bars, as there was before because it is the page that appears as soon as a tab is opened on one of the computers of the school. 
+                In addition, a list of useful links for students and teachers had to be introduced. 
+                For this, semi-transparent colour blocks were used, containing the links of what they indicated. 
+                We added to this a background image with logos for each block.
+              </p>    		
+            </div>
+    	    </div>
       </div>
 	  </div>
 
-    <div id="final" class="center-align background-radient">
+    <div id="final" class="center-align bg-gradient gradient1">
       <h2>Result</h2>
       <div class="row center-align">
-        <div class="col s8 offset-s2 m5 l6 ">
+        <div class="col s11 m11 l6 ">
           <div class="carousel carousel-slider center">
-            <div class="carousel-item white-text carousel-bg intranet" href="#one!">
-        
-            </div>
-
-            <div class="carousel-item amber white-text carousel-bg intranet1" href="#two!">
-          
-            </div>
-
-            <div class="carousel-item green white-text carousel-bg intranet2" href="#three!">
-          
-            </div>
+            <div class="carousel-item white-text carousel-bg intranet"></div>
+            <div class="carousel-item white-text carousel-bg intranet1"> </div>
+            <div class="carousel-item white-text carousel-bg intranet2"></div>
           </div>
         </div>
 
-        <div class="col s10 offset-s1 m5 offset-m1 l5 offset-l1">
+        <div class="col s10 offset-s1 m10 offset-m1 l5 offset-l1">
           <p>
-            Le résultat fut assez satisfaisant, et aimé par la plus part des élèves, ainsi que de l'administration, devant laquelle on a dû présenté le projet ... plusieurs fois ... 
-            Concernant le passage du self, l'interface est minimaliste : un bouton qui mène vers une autre page, sur laquelle on peut voir le passage des classes, mis à jour en direct par un surveillant. <br><br>
-            <a href="https://intranet.stemarieduport.fr/" target="_blank" rel="nofollow">Le site</a> est toujours en ligne et utilisé actuellement.
+            The result was quite satisfactory, and liked by most of the students, as well as the administration, before which the project had to be presented ... several times ... 
+            Regarding the passage of the canteen, the interface is minimalist: a button that leads to another page, on which we can see the passage, updated live by a supervisor.<br><br>
+            <a href="https://intranet.stemarieduport.fr/" target="_blank" rel="nofollow">The website</a> is still online and currently un use.
           </p>
         </div>
       </div>
@@ -180,7 +172,7 @@
 
     <div id="last">
       <div class="parallax-container">
-        <div class="parallax"><img src="img/smp2.jpg"></div>
+        <div class="parallax"><img id="parallax3" src="img/pa.jpg" alt="Parallax n3"></div>
       </div>
     </div>
 
@@ -190,7 +182,7 @@
           <div class="center-align col l6 s12">
             <h5 class="white-text">Great ! You've reach the footer !</h5>
               <p class="grey-text text-lighten-4">
-                Hope you enjoyed our site.<br>if not, feel free to drop us a line using the button below.<br>
+                Hope you enjoyed our site.<br>If not, feel free to drop us a line using the button below.<br>
               </p>
             <div class="center-align">
               <a class="waves-effect waves-light btn modal-trigger" href="#contact"><i class="material-icons left">contacts</i>Contact</a>

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
-    <title>Portfolio</title>
+    <title>Portfolio : Dungeon Conqueror</title>
+    <meta charset="utf-8">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
@@ -40,7 +41,7 @@
 
     <div id="team" class="center-align">
       <div class="parallax-container">
-        <div class="parallax"><img src="img/Danmachi.jpg"></div>
+        <div class="parallax"><img id="parallax1" src="img/pa2.jpg" alt="Parallax n1"></div>
           <div class="center-align">
             <h1>Portfolio : Dungeon Conqueror</h1>
           </div>
@@ -55,7 +56,7 @@
               <div class="card-content">
                 <span class="card-title activator grey-text">Thibault Le Tallec</span>
                 <p>
-                  <a href="#!" target="_blank" rel="nofollow"><i class="fa-brands fa-linkedin fa-3x"></i></a>
+                  <a href="https://www.linkedin.com/in/thibault-le-tallec-0a8198222/" target="_blank" rel="nofollow"><i class="fa-brands fa-linkedin fa-3x"></i></a>
                 </p>
               </div>
 
@@ -76,87 +77,74 @@
     </div>
 
 
-    <div id="idea" class="center-align background-radient">
+    <div id="idea" class="center-align bg-gradient gradient1">
       <h2>Presentation</h2>
       <div class="row center-align">
-        <div class="col s10 offset-s1 m6 offset-m1 l5 offset-l1">
+        <div class="col s10 offset-s1 m10 offset-m1 l5 offset-l1">
           <p>
-            À cette époque, je commençais à programmer, notamment en python, et je me suis lancé le défi de réaliser un mini jeu dans ce langage. 
-            Sachant que j'adore les jeux de type RPG, je me suis mis à chercher un concept intéressant pour ce genre. 
-            De là, je me suis basé sur l'histoire et le concept d'un manga animé nommé DanMachi.
-            Le principe est simple : un donjon, supposé infini, dans laquelle on se bat pour survivre, et dont le but est de descendre le plus bas possible. <br><br>
-            À cela je pouvait aisément rajouter un système de classe, de statistiques, d'objets ou de quêtes...
+            At that time, I started programming, especially in python, and I set myself the challenge of making a mini game in that language. 
+            Knowing that I love RPG type games, I started looking for an interesting concept for this genre. 
+            From there, I based myself on the story and concept of an animated manga called DanMachi. 
+            The principle is simple: a dungeon, supposed to be infinite, in which we fight to survive, and whose goal is to descend as deep as possible.<br><br>
+            To this I could easily add a system of class, statistics, objects or quests...
           </p>
         </div>
 
-        <div class="col s8 offset-s2 m4 l4 offset-l1">
-          <img class="responsive-img" src="img/dan2.jpg">
+        <div class="col s8 offset-s2 m8 offset-m2 l4 offset-l1">
+          <img class="responsive-img" src="img/Danmachi.jpg" alt="Danmachi wallpaper">
         </div>
       </div>
     </div>
 
     <div id="real" class="center-align">
       <div class="parallax-container">
-        <div class="parallax"><img src="img/dan3.jpg"></div>
+        <div class="parallax"><img id="parallax2" src="img/pa1.jpg" alt="Parallax n2"></div>
           <h2>Realisation</h2>
           <div class="row center-align">
-            <div class="col s10 offset-s1 m2 offset-m1 l3 offset-l1">
+            <div class="col s10 offset-s1 m10 offset-m1 l3 offset-l1">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Quisque a tristique libero, vel auctor orci. 
-                Morbi eu ipsum feugiat, imperdiet nibh sed, fermentum massa. 
-                Aliquam egestas lectus a nulla ornare aliquam. Sed congue rutrum urna quis pretium. 
-                Sed pulvinar blandit libero eu blandit. Ut ac augue elit. 
-                Curabitur nec libero ut quam mattis vestibulum vel sit amet neque. 
-                Suspendisse sagittis mauris et eleifend consequat. 
-                Vestibulum accumsan dolor et risus tristique, eget consectetur elit fermentum. 
-                Maecenas id ligula mi. Vivamus consectetur faucibus neque in lacinia.
+                First of all, I had to think about the mechanics I wanted to insert.
+                Let’s start with the class and the statistics: I imagined 5 of them (Knight, Archer, Sword Fighter, Tank and Assasin), each with its own characteristics, strengths and weaknesses etc.<br><br>
+                For the combat system, I had little other choice than the turn-by-turn, easier to manage, and having only one terminal interface ...
               </p>
             </div>
 
-            <div class="col s10 offset-s1 m3 offset-m1 l2 offset-l1">
+            <div class="col s10 offset-s1 m10 offset-m1 l2 offset-l1">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Quisque a tristique libero, vel auctor orci. 
-                Morbi eu ipsum feugiat, imperdiet nibh sed, fermentum massa. 
-                Aliquam egestas lectus a nulla ornare aliquam. 
-                Sed congue rutrum urna quis pretium. Sed pulvinar blandit libero eu blandit. 
-                Ut ac augue elit. Curabitur nec libero ut quam mattis vestibulum vel sit amet neque. 
-                Suspendisse sagittis mauris et eleifend consequat. 
-                Vestibulum accumsan dolor et risus tristique, eget consectetur elit fermentum. 
-                Maecenas id ligula mi. Vivamus consectetur faucibus neque in lacinia.
+                Then we had to make sure that we were doing things by making limited choices. 
+                For this, the game simply asks to the player to enter the number of the desired action. <br><br>
+                We can then explore the city and make precisely actions.
+                This gives rise to loops of games, which can be organised into functions.
               </p>
             </div>
 
-            <div class="col s10 offset-s1 m2 offset-m1 l3 offset-l1">
+            <div class="col s10 offset-s1 m10 offset-m1 l3 offset-l1">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Quisque a tristique libero, vel auctor orci. 
-                Morbi eu ipsum feugiat, imperdiet nibh sed, fermentum massa. 
-                Aliquam egestas lectus a nulla ornare aliquam. Sed congue rutrum urna quis pretium. 
-                Sed pulvinar blandit libero eu blandit. Ut ac augue elit. 
-                Curabitur nec libero ut quam mattis vestibulum vel sit amet neque. 
-                Suspendisse sagittis mauris et eleifend consequat. 
-                Vestibulum accumsan dolor et risus tristique, eget consectetur elit fermentum. 
-                Maecenas id ligula mi. Vivamus consectetur faucibus neque in lacinia.
+                Finally, how to make feel the progress and the difficulty of the dungeon? ... 
+                First, by creating different creatures representing threats, and becoming more and more powerful the more we go deep. 
+                We pass from ferocious wolves to dragons in fifty floors ... 
+                Then come the rewards: crystals winnable on killed creatures, stored in our inventory, and exchangeable for money. 
+                It then allows us to buy various things at the market. 
               </p>
             </div>
           </div>
       </div>
     </div>
 
-    <div id="final" class="center-align background-radient">
+    <div id="final" class="center-align bg-gradient gradient1">
       <h2>Result</h2>
       <div class="row center-align">
-        <div class="col s12 offset-s2 m5 l6">
+        <div class="col s12 m12 l5">
           <div class="mode">
-            <span class="change hoverable"><img class="responsive-img" src="img/start.jpg"></span>
+            <span class="change hoverable"><img class="responsive-img" src="img/start.jpg" alt="shell capture dungeon"></span>
           </div>
         </div>
 
-        <div class="col s12 offset-s1 m5 offset-m1 l5 offset-l1">
+        <div class="col s10 offset-s1 m10 offset-m1 l5 offset-l1">
           <p>
-
+            Honestly, this is a game that I’m not very proud of, because it is not at all finished : I had to stop working on it, and it remained in a beta version, playable, but not complete. 
+            There are also many bugs to fix, and finally, above all, the interface that makes us play is a bit ridiculous .. given that it is a terminal ... <br><br>
+            It was nevertheless a good experience, especially to succeed in organizing a slightly more complex code.
           </p>
         </div>
       </div>
@@ -164,7 +152,7 @@
 
     <div id="last">
       <div class="parallax-container">
-        <div class="parallax"><img src="img/donjon.jpg"></div>
+        <div class="parallax"><img id="parallax3" src="img/pa.jpg" alt="Parallax n3"></div>
       </div>
     </div>
 
@@ -174,7 +162,7 @@
           <div class="center-align col l6 s12">
             <h5 class="white-text">Great ! You've reach the footer !</h5>
               <p class="grey-text text-lighten-4">
-                Hope you enjoyed our site.<br>if not, feel free to drop us a line using the button below.<br>
+                Hope you enjoyed our site.<br>If not, feel free to drop us a line using the button below.<br>
               </p>
             <div class="center-align">
               <a class="waves-effect waves-light btn modal-trigger" href="#contact"><i class="material-icons left">contacts</i>Contact</a>
