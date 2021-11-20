@@ -74,11 +74,6 @@ h2 {
   margin-bottom: 0;
 }
 
-#idea, #final {
-  background-color: #1c4477;
-  background-image: radial-gradient(farthest-side at 10px 0,#235699,#0f2542);
-}
-
 #last .parallax-container, #last .parallax{
   height: 50px;
 }
