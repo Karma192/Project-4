@@ -117,12 +117,6 @@ h2 {
   color: whitesmoke;
 }
 
-.page-footer {
-  background-color: #424242;
-  background-image: radial-gradient(farthest-side at 10px 0,rgba(12, 14, 134, 0.3),#16000d);
-}
-
-
  /*Caroussel*/
 .carousel-bg {
   background-size: cover;
@@ -154,13 +148,18 @@ h2 {
    color: whitesmoke;
  }
 
+.page-footer {
+  background-color: #424242;
+  background-image: radial-gradient(farthest-side at 10px 0,rgba(12, 14, 134, 0.3),#16000d);
+}
+
+/*For Easter egg*/
 .change {
    cursor: pointer;
    border: 0;
    text-align: center;
 }
 
-/*For Easter egg*/
 .fffont {
   font-family: 'Kaisei Opti', sans-serif;
 }
