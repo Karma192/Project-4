@@ -60,6 +60,11 @@ h2 {
   color: rgb(199, 199, 199);
 }
 
+.background-radient {
+  background-color: #1c4477;
+  background-image: radial-gradient(farthest-side at 10px 0,#235699,#0f2542);
+}
+
 #final p a:hover {
   color:rgb(78, 116, 148);
   transition: 0.3s all;
@@ -141,6 +146,10 @@ h2 {
 
 .intranet2 {
   background-image: url("../img/intranet2.jpg");
+}
+
+.start {
+  background-image: url("../img/start.jpg");
 }
 
  #contact {
